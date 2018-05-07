@@ -10,5 +10,5 @@ def input_to_index(input)
   index = input.to_i - 1
 end
 
-def move(boardArray, index, character = "X")
+def move(boardArray, index, value = "X")
   puts 
